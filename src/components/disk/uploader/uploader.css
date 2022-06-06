@@ -1,0 +1,73 @@
+.uploader {
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    background-color: rgba(255, 255, 255);
+    border: 3px solid #000000;
+    right: 0;
+    padding: 20px;
+    /* overflow-y: auto; */
+}
+
+.uploader__title {
+    color: #000000;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.uploader__close {
+    padding: 3px;
+    margin-left: 90%;
+    height: 25px;
+    /* margin-right: 1%;*/
+    margin-top: 1%;
+    background-color: white;
+    font-family: 'Anybody';
+    font-style: normal;
+}
+
+.upload-file {
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+
+.upload-file__header {
+    display: flex;
+    justify-content: space-between;
+    color: #E9E6E6;
+}
+
+.upload-file__progress-bar {
+    height: 1rem;
+    border-radius: 8px;
+    background-color: #566885;
+    display: flex;
+    justify-content: center;
+    margin: 3px 0;
+}
+
+.upload-file__upload-bar {
+    background-color: #F7B538;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-file__percent {
+    color: #E9E6E6;
+    left: 50%;
+    position: absolute;
+}
+
+.upload-file__remove {
+    height: 20px;
+    width: 21px;
+    color: #E9E6E6;
+    background-color: #000000;
+}
+
+
+/*# sourceMappingURL=uploader.css.map */
