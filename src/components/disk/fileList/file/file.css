@@ -1,0 +1,123 @@
+.file {
+    margin: 10px 0;
+    padding-bottom: 7px;
+    border-bottom: solid 2px #000000;
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+    align-items: center;
+}
+
+.file:hover {
+    transform: scale(1.02);
+}
+
+.file__img {
+    justify-self: center;
+}
+
+.file__date {
+    grid-column-start: 6;
+    justify-self: center;
+}
+
+.file__size {
+    grid-column-start: 5;
+    justify-self: left;
+}
+
+.file__date1 {
+    grid-column-start: 6;
+    justify-self: center;
+}
+
+.file__size1 {
+    grid-column-start: 5;
+    justify-self: center;
+}
+
+.file__btn {
+    display: none;
+    width: 41px;
+    height: 41px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.file:hover .file__date {
+    grid-column-start: 4;
+}
+
+.file:hover .file__size {
+    grid-column-start: 3;
+}
+
+.file:hover .file__date1 {
+    grid-column-start: 5;
+}
+
+.file:hover .file__size1 {
+    grid-column-start: 5;
+}
+
+.file:hover .file__download {
+    grid-column-start: 5;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0);
+    margin-left: 5px;
+}
+
+.down__logo1 {
+    width: 30px;
+    height: 30px;
+}
+
+.del__logo1 {
+    width: 30px;
+    height: 30px;
+}
+
+.file:hover .file__delete {
+    grid-column-start: 6;
+    align-items: left;
+    display: block;
+    width: 40px;
+}
+
+.file-plate {
+    width: 145px;
+    height: 150px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.file-plate__img {
+    height: 100px;
+    width: 100px;
+}
+
+.file-plate__btns {
+    display: none;
+    width: 41px;
+    height: 41px;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255);
+}
+
+.file-plate:hover .file-plate__btns {
+    display: flex;
+    width: 41px;
+    height: 41px;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255);
+}
+
+
+/*# sourceMappingURL=file.css.map */
