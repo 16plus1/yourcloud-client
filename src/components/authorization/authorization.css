@@ -1,0 +1,249 @@
+.authorization {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    padding-top: 50px;
+    transform: translate(0%, -50%);
+    box-sizing: border-box;
+    background: rgba(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.logg {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    margin-left: -50%;
+    /* padding-top: 3%; */
+    transform: translate(0%, -50%);
+    box-sizing: border-box;
+    padding-right: 10%;
+    padding-top: 5%;
+    transform: translate(0%, 0%);
+}
+
+.navbarr__logo {
+    width: 510px;
+    height: 400px;
+}
+
+.You {
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 66px;
+    color: #000000;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.authorization__header {
+    align-items: center;
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 66px;
+    color: #000000;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.authorization__header1 {
+    align-items: center;
+    position: absolute;
+    padding-top: 7%;
+    padding-left: 7%;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 66px;
+    color: #000000;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.email {
+    position: absolute;
+    /* width: 400px;
+    height: 100px; */
+    padding-top: 16%;
+    padding-left: 55%;
+    font-family: 'system-ui';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.email1 {
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 55%;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.Inp {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 18% 55%;
+}
+
+.Inp2 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 24% 55%;
+}
+
+.Inp3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 16% 55%;
+}
+
+.Inp4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 22% 55%;
+}
+
+.Inp5 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 28% 55%;
+}
+
+.pass {
+    position: absolute;
+    /* width: 400px;
+    height: 100px; */
+    padding-top: 22%;
+    padding-left: 55%;
+    font-family: 'system-ui';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.pass1 {
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 55%;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.pass2 {
+    position: absolute;
+    padding-top: 26%;
+    padding-left: 55%;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.authorization__btn {
+    position: absolute;
+    border: none;
+    background: #F7B538;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    color: white;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+    margin: 28% 55%;
+    display: block;
+}
+
+.authorization__btn1 {
+    position: absolute;
+    border: none;
+    background: #F7B538;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    color: white;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+    margin: 32% 55%;
+    display: block;
+}
+
+.regg {
+    position: absolute;
+    padding-top: 32%;
+    padding-left: 67%;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #F7B538;
+}
+
+.regg1 {
+    position: absolute;
+    padding-top: 36%;
+    padding-left: 67%;
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #F7B538;
+}
+
+
+/*# sourceMappingURL=authorization.css.map */
