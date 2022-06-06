@@ -13,4 +13,4 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
 
-ppid.listen(PORT)
+app.listen(PORT)
